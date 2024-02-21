@@ -21,7 +21,7 @@ int main()
         massSourceNum[i]=valueN-i;
     }
     int sum;
-    for (int j = 0;j<i;j++)
+    for (int j;j<i;j++)
     {
         if (massSourceNum[j]%5==0 && massSourceNum[j]%valueM!=0)
         {
